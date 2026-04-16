@@ -99,3 +99,15 @@ let acessoPermitido = temSenhaCorreta || temBiometriaAutenticada;
 
 console.log("Acesso Permitido:", acessoPermitido);
 console.log("Acesso Negado", !acessoPermitido);
+
+//QUESTÃO 9
+let tarefas = "Estudar, Trabalhar, Academia, Ler";
+
+let arrayTarefas = tarefas.split(",");
+let tarefasFormatadas = arrayTarefas.join(" | ");
+
+let temEstudar = tarefas.includes("Estudar");
+
+console.log("Array:", arrayTarefas);
+console.log("Formato:", tarefasFormatadas);
+console.log("Contem 'estudar'?", temEstudar);

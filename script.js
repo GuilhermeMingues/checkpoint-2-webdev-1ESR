@@ -65,3 +65,13 @@ while (i <= 5) {
 }
 
 console.log("Soma total:", soma);
+
+//QUESTÃO 6
+let = i;
+
+do {
+    console.log(i);
+    i--;
+} while (i >=1);
+
+console.log("FIM!");

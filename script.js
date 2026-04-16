@@ -55,6 +55,7 @@ for (let i = 0; i <=9; i++); {
 }
 
 //QUESTÃO 5
+
 let = i;
 let = soma = 0;
 
@@ -62,3 +63,5 @@ while (i <= 5) {
     soma += i;
     i++;
 }
+
+console.log("Soma total:", soma);

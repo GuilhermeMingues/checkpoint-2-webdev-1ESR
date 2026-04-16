@@ -75,3 +75,18 @@ do {
 } while (i >=1);
 
 console.log("FIM!");
+
+//QUESTÃO 7
+function verificarIdade(idade) {
+    if (idade < 18) {
+        return "Menor de Idade";
+    } else if (idade >= 18 && idade < 60) {
+        return "Maior de Idade";
+    } else {
+        return "Idoso";
+    }
+}
+
+console.log(verificarIdade(15));
+console.log(verificarIdade(25));
+console.log(verificar(65));
